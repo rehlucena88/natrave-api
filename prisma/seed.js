@@ -250,4 +250,4 @@ const main = () =>
     data: games
   })
 
-main()
+main().then(console.log).catch(console.log)
